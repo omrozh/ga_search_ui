@@ -273,7 +273,7 @@
       const queryString = window.location.search;
       const urlParams = new URLSearchParams(queryString);
       if(urlParams.get('search').length > 1){
-          document.location = 'https://grandassembly.net/search_q/' + urlParams.get('search')
+          document.location = 'https://grandassembly.net/search_query?query=' + urlParams.get('search')
       }
     </script>
 
